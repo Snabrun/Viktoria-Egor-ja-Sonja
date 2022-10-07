@@ -1,0 +1,31 @@
+#paaotsikko {
+  text-align: center;
+}
+td
+{
+  width: 50px;
+}
+
+.oikea
+{
+  text-align: right;
+}
+
+form
+{
+  width: 450px;
+  height: 730px;
+  padding: 20px;
+  background: linear-gradient(180deg, rgb(0, 200, 255) 5%, rgb(0, 255, 0), rgb(0, 200, 255)); /* väriä voi vaihtaa jos ei ole hyvä*/
+  display: inline-block;
+  text-align: left;
+  border: 3px; black;
+  border-radius: 6%;
+}
+body{
+  margin: 100px;
+}
+
+#kiitosKuva{
+  image-orientation: center;
+} /* tästä en ole varma olenko ymmärtänyt oikein, siis tämä tulisi lomakkeen tarkistuksen jälkeen?*/
