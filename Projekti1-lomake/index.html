@@ -3,8 +3,63 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" charset="utf-8"></script>
   </head>
   <body>
+    <form class="" action="index.html" method="post">
+      <!-- Laita h1 keskelle -->
+        <h1 id="paaotsikko">Työpaikkakysely</h1>
 
+      <!-- Pistä CSS:ssä td:n leveys 50px-->
+      <!-- Kohdistaa  luokan teksti "oikea" oikealle-->
+      <table>
+      <tr>
+        <td>Anna etunimi:</td>
+        <td class="oikea"><input type="text" id="enimi" value=""><br /></td>
+      </tr>
+
+      <tr>
+        <td>Anna sukunimi:</td>
+        <td class="oikea"><input type="text" id="snimi" value=""></td>
+      </tr>
+
+      <tr>
+        <td>Anna sähköpostisi:</td>
+        <td class="oikea"><input type="text" id="sposti" value=""></td>
+      </tr>
+      <hr>
+      <tr>
+        <td colspan="2"><p>Palaute profiilistamme:</p></td>
+      </tr>
+      <tr>
+        <td class="oikea" colspan="2"><textarea name="palaute" rows="8" cols="50"></textarea></td>
+      </tr>
+    </table>
+
+
+    <p>Valitse, miten kuulit tästä kyselystä:</p>
+    <p>
+      <input type="radio" name="info" value="kaveri">Ystäviltä<br />
+      <input type="radio" name="info" value="website">Verkkosivustot, kuten Facebook, Instagram tai YouTube<br />
+      <input type="radio" name="info" value="mainos">Mainonnasta<br />
+    </p>
+    <p>Miten pääset töihin?</p>
+    <table>
+    <p>
+      <input type="checkbox" name="box" value="Metrolla">Metrolla<br />
+      <input type="checkbox" name="box" value="Bussilla">Bussilla<br />
+      <input type="checkbox" name="box" value="Taksilla">Taksilla<br />
+      <input type="checkbox" name="box" value="Junalla">Junalla<br />
+      <input type="checkbox" name="box" value="Raitiovaunulla">Raitiovaunulla<br />
+      <input type="checkbox" name="box" value="Polkupuoralla">Polkupuörällä<br />
+      <input type="checkbox" name="box" value="Kavella">Kävellä<br />
+    </p>
+    <p>
+      <input type="submit" name="submit" value="Tarkasta lomake">
+      <input type="reset" name="reset" value="Tyhjennä">
+    </p>
+  </table>
+  </form>
   </body>
 </html>
