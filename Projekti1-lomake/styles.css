@@ -10,22 +10,26 @@ td
 {
   text-align: right;
 }
-
+table {
+  width: 100%;
+}
 form
 {
-  width: 450px;
-  height: 730px;
-  padding: 20px;
+  width: 400px;
+  padding: 0px 20px;
   background: linear-gradient(180deg, rgb(0, 200, 255) 5%, rgb(0, 255, 0), rgb(0, 200, 255)); /* väriä voi vaihtaa jos ei ole hyvä*/
-  display: inline-block;
   text-align: left;
-  border: 3px; black;
+  border: 1px solid black;
   border-radius: 6%;
+  margin: 10px auto;
 }
-body{
-  margin: 100px;
+textarea {
+  width: 98%;
 }
-
+input[type="submit"], input[type="reset"] {
+  padding: 5px 8px;
+  border-radius: 5px;
+}
 #kiitosKuva{
   image-orientation: center;
 } /* tästä en ole varma olenko ymmärtänyt oikein, siis tämä tulisi lomakkeen tarkistuksen jälkeen?*/
